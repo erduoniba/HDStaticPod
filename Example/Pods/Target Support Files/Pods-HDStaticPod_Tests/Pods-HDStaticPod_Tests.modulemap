@@ -1,0 +1,6 @@
+framework module Pods_HDStaticPod_Tests {
+  umbrella header "Pods-HDStaticPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

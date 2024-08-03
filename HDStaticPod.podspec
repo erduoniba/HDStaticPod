@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HDStaticPod/Classes/**/*'
   
+  s.static_framework = true
+  
   # s.resource_bundles = {
   #   'HDStaticPod' => ['HDStaticPod/Assets/*.png']
   # }

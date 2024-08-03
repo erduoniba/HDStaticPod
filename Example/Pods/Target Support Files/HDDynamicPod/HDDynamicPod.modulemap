@@ -1,0 +1,6 @@
+framework module HDDynamicPod {
+  umbrella header "HDDynamicPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module HDStaticPod {
+  umbrella header "HDStaticPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

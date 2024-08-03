@@ -1,0 +1,21 @@
+PODS:
+  - HDDynamicPod (0.1.0)
+  - HDStaticPod (0.1.0)
+
+DEPENDENCIES:
+  - HDDynamicPod (from `../../../HDDynamicPod/HDDynamicPod`)
+  - HDStaticPod (from `../`)
+
+EXTERNAL SOURCES:
+  HDDynamicPod:
+    :path: "../../../HDDynamicPod/HDDynamicPod"
+  HDStaticPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HDDynamicPod: a4591f3329dfec9327b67f9173bacd22fd7f387f
+  HDStaticPod: f3330ed5b1b82d18cea3b4cc402a8bf4eedbcc24
+
+PODFILE CHECKSUM: a84edf3ebeb6f742f8f227efbcfb6fb2ff35df5c
+
+COCOAPODS: 1.15.2

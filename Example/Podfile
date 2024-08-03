@@ -5,10 +5,9 @@ platform :ios, '10.0'
 target 'HDStaticPod_Example' do
   pod 'HDStaticPod', :path => '../'
 
+  pod 'HDDynamicPod', :path => '../../../HDDynamicPod/HDDynamicPod'
+
   target 'HDStaticPod_Tests' do
     inherit! :search_paths
-
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 10.0.0'
   end
 end
