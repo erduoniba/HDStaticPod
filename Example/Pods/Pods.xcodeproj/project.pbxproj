@@ -7,38 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030E338DCF052A44CC9AC9F8CF019542 /* HDStaticPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435DECC74E178EE5A65E39E4F1EE172 /* HDStaticPod.swift */; };
-		0373B9373AB805C5D68A1FDCBBF98886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0F5BA0E2B36D9D2AF144EB58A7426BC5 /* Pods-HDStaticPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC616D556DF9D41893CFCB8561A7BD9B /* Pods-HDStaticPod_Tests-dummy.m */; };
+		2911C39C1521B0F73D744764DFF99B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		497178C7B17455AF525022B723B2AE5B /* Pods-HDStaticPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08723998F1D546BCF76E2A195306DE1D /* Pods-HDStaticPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		616D50B0C037A0493BA1ED94A41979B4 /* HDDynamicPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AE8215DC8492690828F820808F6D6 /* HDDynamicPod-dummy.m */; };
+		4C5BD531343BCA0F9B2B30A59DC1E1C1 /* HDStaticOCDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B38D91BB2388B75E55FDA69C9D04A3 /* HDStaticOCDemo.m */; };
+		574F8F202E01CA7E3E4971A77DB8755F /* HDStaticOCDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B034CAAB93D4500B5FCF61A0B2EC8F7 /* HDStaticOCDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616D50B0C037A0493BA1ED94A41979B4 /* HDDynamicPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE222031BE489E3FC9E6F0B5925DB7D2 /* HDDynamicPod-dummy.m */; };
 		79DE97065961DF612D12B77F53FC8F5A /* Pods-HDStaticPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950638482845766B040AFE441CF7F16E /* Pods-HDStaticPod_Example-dummy.m */; };
 		7F1EC09206150E8768E4A2A383975906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		850D9532D5A54B0ABC2E5ADDC5FD0AA0 /* Pods-HDStaticPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CA607BF0DE278E40CBB227459E1115 /* Pods-HDStaticPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A49443CD118F580164DFAC09A5627E9D /* HDDynamicPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 665E7E0149ED76813DFADFB1E5B1D97A /* HDDynamicPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0F181A5A18F5665E1AE398259967C4F /* HDStaticPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40F30BBB241A04D30F8D810581AC86E /* HDStaticPod-dummy.m */; };
-		C5278D85E91BC00968DA0648D74424B0 /* HDDynamicPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CA20B6AD761F63FF3B97BC3BF064 /* HDDynamicPod.swift */; };
+		86800A86212DAC1AE20A81EE5112DDEC /* HDStaticPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FE07351FCDED59BA4C5A1394151FD4 /* HDStaticPod-dummy.m */; };
+		A49443CD118F580164DFAC09A5627E9D /* HDDynamicPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4464B078E74BE1C0EEEA700694D5D2D6 /* HDDynamicPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04AE104E10471AD6A5E1DEA38E099BE /* HDStaticPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE93326E0F2C7F4B0FE0E1CDCE666E84 /* HDStaticPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5278D85E91BC00968DA0648D74424B0 /* HDDynamicPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DCC0C4EE88D06C12F903B3C5E1E2F2 /* HDDynamicPod.swift */; };
 		CAD71F766A38789F8FB9F32D9365579D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D1777FD75435E68C3ACE5CA8D6CB9415 /* HDStaticPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632596B2BF2A53A4C5299647BD46B99 /* HDStaticPod.swift */; };
 		DB0EB65BFCD1758F22D5FE2600242524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E3B6E8FADA017A9716ED28959B6E71D7 /* HDStaticPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C13EA3EAEA28D04335C088190180ED /* HDStaticPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20C885723EE872AFD508542662BFB037 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDB3926CDC5A36F8C30A542957C79624;
-			remoteInfo = HDDynamicPod;
-		};
-		41B3320DE35E6838F1D673ACDB13C271 /* PBXContainerItemProxy */ = {
+		2D3FFCE95473176C4FD64FE27F054297 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E6112A9504846CFBBFD679D3E169427A;
 			remoteInfo = HDStaticPod;
 		};
-		84F6508C172E36D49C4FFEC79D1D5B86 /* PBXContainerItemProxy */ = {
+		8E02FBDA7B92EAF93E213B57F5D7CBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB3926CDC5A36F8C30A542957C79624;
+			remoteInfo = HDDynamicPod;
+		};
+		8E199FB1D7695345D1519A53AF92DD6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,48 +52,50 @@
 /* Begin PBXFileReference section */
 		00296621753BB5DA0DAC9608EEDEB7E4 /* Pods-HDStaticPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDStaticPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		003AA27E90C94E2C7A8BD18BB7C5B0E7 /* HDDynamicPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDDynamicPod; path = HDDynamicPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		062DADDE0FC8B95C37622633FDF0AB7C /* HDStaticPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDStaticPod.debug.xcconfig; sourceTree = "<group>"; };
+		053D4184416E532FB3231C31D4754D05 /* HDDynamicPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDDynamicPod.release.xcconfig; sourceTree = "<group>"; };
 		08723998F1D546BCF76E2A195306DE1D /* Pods-HDStaticPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDStaticPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0DECBF7007955315E4EDFCEB9AC33BD1 /* HDDynamicPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDDynamicPod.modulemap; sourceTree = "<group>"; };
-		0F74D01352300BB600B8D4BE15BCEBEF /* HDDynamicPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDDynamicPod.debug.xcconfig; sourceTree = "<group>"; };
-		234E61FB70807F647586177D6A077F14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13651AE539E0936F3A464DCFEFD12294 /* HDDynamicPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HDDynamicPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1472CD284A797983B45B94A298631DF5 /* HDStaticPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDStaticPod.debug.xcconfig; sourceTree = "<group>"; };
+		16B38D91BB2388B75E55FDA69C9D04A3 /* HDStaticOCDemo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDStaticOCDemo.m; path = HDStaticPod/Classes/HDStaticOCDemo.m; sourceTree = "<group>"; };
+		2001E7589681D28B6A680A87A11944B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		29A503237557BE92A86BDCC8969A68B6 /* Pods-HDStaticPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDStaticPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2C8AE8215DC8492690828F820808F6D6 /* HDDynamicPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDDynamicPod-dummy.m"; sourceTree = "<group>"; };
-		36F21A02AB4A4A7D694A095BE2CC95C5 /* HDStaticPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDStaticPod-Info.plist"; sourceTree = "<group>"; };
-		4359DF83F2E39F8C0B4087FA733CCC62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		45A0CA20B6AD761F63FF3B97BC3BF064 /* HDDynamicPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HDDynamicPod.swift; path = HDDynamicPod/Classes/HDDynamicPod.swift; sourceTree = "<group>"; };
+		43D591C09584CD2AE4ADA1B936E22A91 /* HDStaticPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDStaticPod.release.xcconfig; sourceTree = "<group>"; };
+		4464B078E74BE1C0EEEA700694D5D2D6 /* HDDynamicPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDDynamicPod-umbrella.h"; sourceTree = "<group>"; };
 		46448AC392FAAD42461F7E663C0834E9 /* Pods-HDStaticPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDStaticPod_Example"; path = Pods_HDStaticPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DA5FD063F7383DA8139FA42BE1049A /* HDStaticPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HDStaticPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49DCC0C4EE88D06C12F903B3C5E1E2F2 /* HDDynamicPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HDDynamicPod.swift; path = HDDynamicPod/Classes/HDDynamicPod.swift; sourceTree = "<group>"; };
 		4A7A2822BD633EC3A161FC1B0D7C9665 /* Pods-HDStaticPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDStaticPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A4403D8DA675D1CAF9B6A4A0A2A3BC4 /* Pods-HDStaticPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDStaticPod_Tests"; path = Pods_HDStaticPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F6E5FB51A4325E2DBC56716B7B4ACD5 /* HDDynamicPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDDynamicPod-prefix.pch"; sourceTree = "<group>"; };
-		665E7E0149ED76813DFADFB1E5B1D97A /* HDDynamicPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDDynamicPod-umbrella.h"; sourceTree = "<group>"; };
 		68CA607BF0DE278E40CBB227459E1115 /* Pods-HDStaticPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDStaticPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		6A5CDB1092D9ACE9FD4D74AF63420D36 /* Pods-HDStaticPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDStaticPod_Tests.modulemap"; sourceTree = "<group>"; };
+		6D402B229BC37EAACC1B747EF5E27188 /* HDDynamicPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDDynamicPod-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8435DECC74E178EE5A65E39E4F1EE172 /* HDStaticPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HDStaticPod.swift; path = HDStaticPod/Classes/HDStaticPod.swift; sourceTree = "<group>"; };
-		8B0155E74A8CDA1DA678384CAB4BF5B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8D5B5BF0650699F561A5C1D1C49C9709 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B034CAAB93D4500B5FCF61A0B2EC8F7 /* HDStaticOCDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDStaticOCDemo.h; path = HDStaticPod/Classes/HDStaticOCDemo.h; sourceTree = "<group>"; };
+		9222F5A7592ADA4EE874703D1AA3E314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		950638482845766B040AFE441CF7F16E /* Pods-HDStaticPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDStaticPod_Example-dummy.m"; sourceTree = "<group>"; };
 		95B46A4A7DA5E4C33384EBC5CE8606B7 /* Pods-HDStaticPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDStaticPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A09E0BACCC1A1450C9931723E7AA570D /* HDStaticPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDStaticPod.modulemap; sourceTree = "<group>"; };
+		965609D43FC0EEC2F03699E2F0300B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08C56E65AC1EC9E4F81F0ECB09E9D81 /* HDStaticPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDStaticPod.modulemap; sourceTree = "<group>"; };
 		A0AA45971FAEB7C9517E25A77CEDB831 /* Pods-HDStaticPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDStaticPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3A715D8D366CF1CA216BDADADAA2016 /* Pods-HDStaticPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDStaticPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		A89C2FCE7AC2675D5D9AD1E068143A7D /* Pods-HDStaticPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDStaticPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AD3CF3F2855804C31DE85C8C7A4AEC91 /* Pods-HDStaticPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDStaticPod_Example-Info.plist"; sourceTree = "<group>"; };
-		B3B4D5DD4319711AB817906F1D9206FE /* HDDynamicPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HDDynamicPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5223145838AF7730DFA6F42BC2EB834 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B632596B2BF2A53A4C5299647BD46B99 /* HDStaticPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HDStaticPod.swift; path = HDStaticPod/Classes/HDStaticPod.swift; sourceTree = "<group>"; };
+		B7A94F3787F75573B9EEE8566355B10A /* HDDynamicPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDDynamicPod.debug.xcconfig; sourceTree = "<group>"; };
+		BE222031BE489E3FC9E6F0B5925DB7D2 /* HDDynamicPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDDynamicPod-dummy.m"; sourceTree = "<group>"; };
 		C5EE717EBDFEA00768185FD2BCD362BA /* HDStaticPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDStaticPod; path = HDStaticPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75FF74C330238F4526F5ED843139380 /* Pods-HDStaticPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDStaticPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CD76364E15D8842CDB5D07D67237CD38 /* HDDynamicPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDDynamicPod.release.xcconfig; sourceTree = "<group>"; };
-		D2F462F67E6D852733B62CF2223D5806 /* HDDynamicPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDDynamicPod-Info.plist"; sourceTree = "<group>"; };
-		E3BB9F18D00C13982A074E1F7C45D9AA /* HDStaticPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HDStaticPod.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		E40F30BBB241A04D30F8D810581AC86E /* HDStaticPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDStaticPod-dummy.m"; sourceTree = "<group>"; };
-		E7A7B77320ACF2092FC3B374496CBC80 /* HDStaticPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDStaticPod.release.xcconfig; sourceTree = "<group>"; };
+		C7D8E7DF9F2D61F585EF54B7ADBFC310 /* HDStaticPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDStaticPod-Info.plist"; sourceTree = "<group>"; };
+		D10DAB818E882AB9B72C841B8BB09AB3 /* HDDynamicPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDDynamicPod-Info.plist"; sourceTree = "<group>"; };
+		D9784A2570E6BA368D350EF0211FD323 /* HDDynamicPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDDynamicPod.modulemap; sourceTree = "<group>"; };
+		DDEB0848BDB8E6C6C847740FDB1327A3 /* HDStaticPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDStaticPod-prefix.pch"; sourceTree = "<group>"; };
 		EABE04FFDCE435DAC08ADABC9730043C /* Pods-HDStaticPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDStaticPod_Example.modulemap"; sourceTree = "<group>"; };
 		ECAE3CA4D190402616B48A3DD442D56C /* Pods-HDStaticPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDStaticPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE93326E0F2C7F4B0FE0E1CDCE666E84 /* HDStaticPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDStaticPod-umbrella.h"; sourceTree = "<group>"; };
 		F063A2776AA9F6BB01F3D0E17C611646 /* Pods-HDStaticPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDStaticPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0C13EA3EAEA28D04335C088190180ED /* HDStaticPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDStaticPod-umbrella.h"; sourceTree = "<group>"; };
-		F2A51B764F6221FEC5CC32A76D380B3B /* HDStaticPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDStaticPod-prefix.pch"; sourceTree = "<group>"; };
+		F3FE07351FCDED59BA4C5A1394151FD4 /* HDStaticPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDStaticPod-dummy.m"; sourceTree = "<group>"; };
 		FC616D556DF9D41893CFCB8561A7BD9B /* Pods-HDStaticPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDStaticPod_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,19 +108,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		518D15273210BF28E14A52DCA6769EA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0373B9373AB805C5D68A1FDCBBF98886 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8BD6021F57C021437F1B6481398AEC71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CAD71F766A38789F8FB9F32D9365579D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B487965A75BBD29282907076DC16F5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2911C39C1521B0F73D744764DFF99B47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,44 +135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29560F3CDFDBE4FF039B273ED63B3C8C /* Development Pods */ = {
+		31ACBA857D64249380CE565525FC3B7A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D585423612B3060E54CE3AD8D175FF3B /* HDDynamicPod */,
-				4160B1B16F0D2850709CE21E4DA9C722 /* HDStaticPod */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		354D38558E74B08AEBB49C05A5F6B254 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E3BB9F18D00C13982A074E1F7C45D9AA /* HDStaticPod.podspec */,
-				8B0155E74A8CDA1DA678384CAB4BF5B8 /* LICENSE */,
-				234E61FB70807F647586177D6A077F14 /* README.md */,
+				13651AE539E0936F3A464DCFEFD12294 /* HDDynamicPod.podspec */,
+				B5223145838AF7730DFA6F42BC2EB834 /* LICENSE */,
+				965609D43FC0EEC2F03699E2F0300B23 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		38042B3D63A50749A6E4052CE23E7A1C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B3B4D5DD4319711AB817906F1D9206FE /* HDDynamicPod.podspec */,
-				4359DF83F2E39F8C0B4087FA733CCC62 /* LICENSE */,
-				8D5B5BF0650699F561A5C1D1C49C9709 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4160B1B16F0D2850709CE21E4DA9C722 /* HDStaticPod */ = {
-			isa = PBXGroup;
-			children = (
-				8435DECC74E178EE5A65E39E4F1EE172 /* HDStaticPod.swift */,
-				354D38558E74B08AEBB49C05A5F6B254 /* Pod */,
-				A49D5B120F0C96021D2969EA9F1D2717 /* Support Files */,
-			);
-			name = HDStaticPod;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		4A3535D3B71D396B88D82940B8133E73 /* Products */ = {
@@ -182,6 +156,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		51452579EFE4DF88A63EDE0CA3715F8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47DA5FD063F7383DA8139FA42BE1049A /* HDStaticPod.podspec */,
+				2001E7589681D28B6A680A87A11944B0 /* LICENSE */,
+				9222F5A7592ADA4EE874703D1AA3E314 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		56EC9D9CC54C5439449DA16CC1548C9D /* HDStaticPod */ = {
+			isa = PBXGroup;
+			children = (
+				7B034CAAB93D4500B5FCF61A0B2EC8F7 /* HDStaticOCDemo.h */,
+				16B38D91BB2388B75E55FDA69C9D04A3 /* HDStaticOCDemo.m */,
+				B632596B2BF2A53A4C5299647BD46B99 /* HDStaticPod.swift */,
+				51452579EFE4DF88A63EDE0CA3715F8F /* Pod */,
+				EFCE73255C19C87E771FE13B6F148AA8 /* Support Files */,
+			);
+			name = HDStaticPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,31 +187,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A49D5B120F0C96021D2969EA9F1D2717 /* Support Files */ = {
+		7DA9BD18C3168F4618C55845FF445DD6 /* HDDynamicPod */ = {
 			isa = PBXGroup;
 			children = (
-				A09E0BACCC1A1450C9931723E7AA570D /* HDStaticPod.modulemap */,
-				E40F30BBB241A04D30F8D810581AC86E /* HDStaticPod-dummy.m */,
-				36F21A02AB4A4A7D694A095BE2CC95C5 /* HDStaticPod-Info.plist */,
-				F2A51B764F6221FEC5CC32A76D380B3B /* HDStaticPod-prefix.pch */,
-				F0C13EA3EAEA28D04335C088190180ED /* HDStaticPod-umbrella.h */,
-				062DADDE0FC8B95C37622633FDF0AB7C /* HDStaticPod.debug.xcconfig */,
-				E7A7B77320ACF2092FC3B374496CBC80 /* HDStaticPod.release.xcconfig */,
+				49DCC0C4EE88D06C12F903B3C5E1E2F2 /* HDDynamicPod.swift */,
+				31ACBA857D64249380CE565525FC3B7A /* Pod */,
+				B31811196382F5C95009A81B584512A0 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HDStaticPod";
+			name = HDDynamicPod;
+			path = ../../../../HDDynamicPod/HDDynamicPod;
 			sourceTree = "<group>";
 		};
-		B07D2F197312AE02A0537B879BE9092F /* Support Files */ = {
+		971788DA5FA5A83AF24A3095DE66CD85 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0DECBF7007955315E4EDFCEB9AC33BD1 /* HDDynamicPod.modulemap */,
-				2C8AE8215DC8492690828F820808F6D6 /* HDDynamicPod-dummy.m */,
-				D2F462F67E6D852733B62CF2223D5806 /* HDDynamicPod-Info.plist */,
-				5F6E5FB51A4325E2DBC56716B7B4ACD5 /* HDDynamicPod-prefix.pch */,
-				665E7E0149ED76813DFADFB1E5B1D97A /* HDDynamicPod-umbrella.h */,
-				0F74D01352300BB600B8D4BE15BCEBEF /* HDDynamicPod.debug.xcconfig */,
-				CD76364E15D8842CDB5D07D67237CD38 /* HDDynamicPod.release.xcconfig */,
+				7DA9BD18C3168F4618C55845FF445DD6 /* HDDynamicPod */,
+				56EC9D9CC54C5439449DA16CC1548C9D /* HDStaticPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B31811196382F5C95009A81B584512A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9784A2570E6BA368D350EF0211FD323 /* HDDynamicPod.modulemap */,
+				BE222031BE489E3FC9E6F0B5925DB7D2 /* HDDynamicPod-dummy.m */,
+				D10DAB818E882AB9B72C841B8BB09AB3 /* HDDynamicPod-Info.plist */,
+				6D402B229BC37EAACC1B747EF5E27188 /* HDDynamicPod-prefix.pch */,
+				4464B078E74BE1C0EEEA700694D5D2D6 /* HDDynamicPod-umbrella.h */,
+				B7A94F3787F75573B9EEE8566355B10A /* HDDynamicPod.debug.xcconfig */,
+				053D4184416E532FB3231C31D4754D05 /* HDDynamicPod.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../../HDStaticPod/HDStaticPod/Example/Pods/Target Support Files/HDDynamicPod";
@@ -240,7 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				29560F3CDFDBE4FF039B273ED63B3C8C /* Development Pods */,
+				971788DA5FA5A83AF24A3095DE66CD85 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4A3535D3B71D396B88D82940B8133E73 /* Products */,
 				E7BFE81E739BE7D1EB323523CE8369E9 /* Targets Support Files */,
@@ -272,17 +274,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D585423612B3060E54CE3AD8D175FF3B /* HDDynamicPod */ = {
-			isa = PBXGroup;
-			children = (
-				45A0CA20B6AD761F63FF3B97BC3BF064 /* HDDynamicPod.swift */,
-				38042B3D63A50749A6E4052CE23E7A1C /* Pod */,
-				B07D2F197312AE02A0537B879BE9092F /* Support Files */,
-			);
-			name = HDDynamicPod;
-			path = ../../../../HDDynamicPod/HDDynamicPod;
-			sourceTree = "<group>";
-		};
 		E7BFE81E739BE7D1EB323523CE8369E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +281,21 @@
 				B8438526390AD83F3D685E442DB7CD1C /* Pods-HDStaticPod_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFCE73255C19C87E771FE13B6F148AA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A08C56E65AC1EC9E4F81F0ECB09E9D81 /* HDStaticPod.modulemap */,
+				F3FE07351FCDED59BA4C5A1394151FD4 /* HDStaticPod-dummy.m */,
+				C7D8E7DF9F2D61F585EF54B7ADBFC310 /* HDStaticPod-Info.plist */,
+				DDEB0848BDB8E6C6C847740FDB1327A3 /* HDStaticPod-prefix.pch */,
+				EE93326E0F2C7F4B0FE0E1CDCE666E84 /* HDStaticPod-umbrella.h */,
+				1472CD284A797983B45B94A298631DF5 /* HDStaticPod.debug.xcconfig */,
+				43D591C09584CD2AE4ADA1B936E22A91 /* HDStaticPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HDStaticPod";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,11 +317,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B57466AA3F7A46C8D54EFCD5FFA4E72 /* Headers */ = {
+		1ED46BDF599BC4E468F46FDFC6CFDE27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B6E8FADA017A9716ED28959B6E71D7 /* HDStaticPod-umbrella.h in Headers */,
+				574F8F202E01CA7E3E4971A77DB8755F /* HDStaticOCDemo.h in Headers */,
+				B04AE104E10471AD6A5E1DEA38E099BE /* HDStaticPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +349,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				13E4FA4A74CF4945F23F19CF7D6C4835 /* PBXTargetDependency */,
-				3A0CA310B79772A85E60A4271469C7A7 /* PBXTargetDependency */,
+				4F9A4093B56DD0ED70E442F8D37753C3 /* PBXTargetDependency */,
+				6BD6ECFC202575C35B67BD1D1F17C4DF /* PBXTargetDependency */,
 			);
 			name = "Pods-HDStaticPod_Example";
 			productName = Pods_HDStaticPod_Example;
@@ -362,7 +369,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				74844C6C73DF07825AE2454842B58899 /* PBXTargetDependency */,
+				54BB4C832D037D402D9B8803A331E1BA /* PBXTargetDependency */,
 			);
 			name = "Pods-HDStaticPod_Tests";
 			productName = Pods_HDStaticPod_Tests;
@@ -389,12 +396,12 @@
 		};
 		E6112A9504846CFBBFD679D3E169427A /* HDStaticPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C104619B59B12F888F47ADFDC7C9A18F /* Build configuration list for PBXNativeTarget "HDStaticPod" */;
+			buildConfigurationList = 329F4B987193F77A3ED5671D6FCD8318 /* Build configuration list for PBXNativeTarget "HDStaticPod" */;
 			buildPhases = (
-				6B57466AA3F7A46C8D54EFCD5FFA4E72 /* Headers */,
-				98268ED2E54F60552EBD53574B8A9D95 /* Sources */,
-				518D15273210BF28E14A52DCA6769EA3 /* Frameworks */,
-				824933D4EC272436D1EFC55552841ED7 /* Resources */,
+				1ED46BDF599BC4E468F46FDFC6CFDE27 /* Headers */,
+				61E34B93F9FB4F05DED29F4E1B04000B /* Sources */,
+				B487965A75BBD29282907076DC16F5E9 /* Frameworks */,
+				3880C617AC9235C1CEC6A7F0F85E4A9B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -423,6 +430,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
 			productRefGroup = 4A3535D3B71D396B88D82940B8133E73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -436,14 +444,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67D611B326E3A5DBFF7F2F4A4DCFF51A /* Resources */ = {
+		3880C617AC9235C1CEC6A7F0F85E4A9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		824933D4EC272436D1EFC55552841ED7 /* Resources */ = {
+		67D611B326E3A5DBFF7F2F4A4DCFF51A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,12 +491,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98268ED2E54F60552EBD53574B8A9D95 /* Sources */ = {
+		61E34B93F9FB4F05DED29F4E1B04000B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030E338DCF052A44CC9AC9F8CF019542 /* HDStaticPod.swift in Sources */,
-				B0F181A5A18F5665E1AE398259967C4F /* HDStaticPod-dummy.m in Sources */,
+				4C5BD531343BCA0F9B2B30A59DC1E1C1 /* HDStaticOCDemo.m in Sources */,
+				D1777FD75435E68C3ACE5CA8D6CB9415 /* HDStaticPod.swift in Sources */,
+				86800A86212DAC1AE20A81EE5112DDEC /* HDStaticPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,93 +513,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13E4FA4A74CF4945F23F19CF7D6C4835 /* PBXTargetDependency */ = {
+		4F9A4093B56DD0ED70E442F8D37753C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HDDynamicPod;
 			target = CDB3926CDC5A36F8C30A542957C79624 /* HDDynamicPod */;
-			targetProxy = 20C885723EE872AFD508542662BFB037 /* PBXContainerItemProxy */;
+			targetProxy = 8E02FBDA7B92EAF93E213B57F5D7CBDD /* PBXContainerItemProxy */;
 		};
-		3A0CA310B79772A85E60A4271469C7A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HDStaticPod;
-			target = E6112A9504846CFBBFD679D3E169427A /* HDStaticPod */;
-			targetProxy = 41B3320DE35E6838F1D673ACDB13C271 /* PBXContainerItemProxy */;
-		};
-		74844C6C73DF07825AE2454842B58899 /* PBXTargetDependency */ = {
+		54BB4C832D037D402D9B8803A331E1BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HDStaticPod_Example";
 			target = 736CFE1160C038C09E9BC49524CB2CED /* Pods-HDStaticPod_Example */;
-			targetProxy = 84F6508C172E36D49C4FFEC79D1D5B86 /* PBXContainerItemProxy */;
+			targetProxy = 8E199FB1D7695345D1519A53AF92DD6C /* PBXContainerItemProxy */;
+		};
+		6BD6ECFC202575C35B67BD1D1F17C4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDStaticPod;
+			target = E6112A9504846CFBBFD679D3E169427A /* HDStaticPod */;
+			targetProxy = 2D3FFCE95473176C4FD64FE27F054297 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3514993174B9778065FE22DE4061DC51 /* Debug */ = {
+		014614008A3CEE953CF65919A1A0B1C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F74D01352300BB600B8D4BE15BCEBEF /* HDDynamicPod.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HDDynamicPod/HDDynamicPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod.modulemap";
-				PRODUCT_MODULE_NAME = HDDynamicPod;
-				PRODUCT_NAME = HDDynamicPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3E5A5EA4E8E2CF636F5BB7FDE9C15FAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD76364E15D8842CDB5D07D67237CD38 /* HDDynamicPod.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HDDynamicPod/HDDynamicPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod.modulemap";
-				PRODUCT_MODULE_NAME = HDDynamicPod;
-				PRODUCT_NAME = HDDynamicPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		516697296609482BC7E2A6458D61A251 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 062DADDE0FC8B95C37622633FDF0AB7C /* HDStaticPod.debug.xcconfig */;
+			baseConfigurationReference = 1472CD284A797983B45B94A298631DF5 /* HDStaticPod.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -613,12 +559,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		76D0736581BE830C47876B63A523769F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053D4184416E532FB3231C31D4754D05 /* HDDynamicPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDDynamicPod/HDDynamicPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod.modulemap";
+				PRODUCT_MODULE_NAME = HDDynamicPod;
+				PRODUCT_NAME = HDDynamicPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		79DEC99E3882C538D94074AC93D7B578 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -708,7 +686,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -781,6 +760,37 @@
 			};
 			name = Release;
 		};
+		A689FF7B4E82C3677CBD417B991755BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A94F3787F75573B9EEE8566355B10A /* HDDynamicPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDDynamicPod/HDDynamicPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDDynamicPod/HDDynamicPod.modulemap";
+				PRODUCT_MODULE_NAME = HDDynamicPod;
+				PRODUCT_NAME = HDDynamicPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -847,9 +857,9 @@
 			};
 			name = Debug;
 		};
-		FD322FA520BA5863F27F6796E8911634 /* Release */ = {
+		EC9CA8EF947C33E4BAB0CCC5DB9F2255 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7A7B77320ACF2092FC3B374496CBC80 /* HDStaticPod.release.xcconfig */;
+			baseConfigurationReference = 43D591C09584CD2AE4ADA1B936E22A91 /* HDStaticPod.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -872,7 +882,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -917,6 +927,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		329F4B987193F77A3ED5671D6FCD8318 /* Build configuration list for PBXNativeTarget "HDStaticPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014614008A3CEE953CF65919A1A0B1C5 /* Debug */,
+				EC9CA8EF947C33E4BAB0CCC5DB9F2255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -929,8 +948,8 @@
 		4CEE19494D515FECC9E03D31FD492566 /* Build configuration list for PBXNativeTarget "HDDynamicPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3514993174B9778065FE22DE4061DC51 /* Debug */,
-				3E5A5EA4E8E2CF636F5BB7FDE9C15FAA /* Release */,
+				A689FF7B4E82C3677CBD417B991755BA /* Debug */,
+				76D0736581BE830C47876B63A523769F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -949,15 +968,6 @@
 			buildConfigurations = (
 				7FDA7CDA0C610E8117A0FA7BCABC8066 /* Debug */,
 				9779FBD39AAEA4E78827E59150B5705B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C104619B59B12F888F47ADFDC7C9A18F /* Build configuration list for PBXNativeTarget "HDStaticPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				516697296609482BC7E2A6458D61A251 /* Debug */,
-				FD322FA520BA5863F27F6796E8911634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

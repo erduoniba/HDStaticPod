@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDStaticPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HDStaticPod.'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HDStaticPod/Classes/**/*'
-  
+
   s.static_framework = true
-  
+
   # s.resource_bundles = {
   #   'HDStaticPod' => ['HDStaticPod/Assets/*.png']
   # }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HDStaticOCDemo.h"
 
 FOUNDATION_EXPORT double HDStaticPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char HDStaticPodVersionString[];
