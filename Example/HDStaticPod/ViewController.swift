@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         HDStaticPod.staticLog()
         
         HDStaticOCDemo.staticOCLog()
+        
+        HDStaticPod.staticLog()
     }
 
     override func didReceiveMemoryWarning() {

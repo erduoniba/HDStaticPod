@@ -534,16 +534,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		014614008A3CEE953CF65919A1A0B1C5 /* Debug */ = {
+		5A04C6E6C0C60CEF69DFD4B7A2E0B8FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1472CD284A797983B45B94A298631DF5 /* HDStaticPod.debug.xcconfig */;
+			baseConfigurationReference = 43D591C09584CD2AE4ADA1B936E22A91 /* HDStaticPod.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -561,10 +560,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		76D0736581BE830C47876B63A523769F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -857,16 +857,15 @@
 			};
 			name = Debug;
 		};
-		EC9CA8EF947C33E4BAB0CCC5DB9F2255 /* Release */ = {
+		EEE85B0187FA95CF822931C3EED9A8FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43D591C09584CD2AE4ADA1B936E22A91 /* HDStaticPod.release.xcconfig */;
+			baseConfigurationReference = 1472CD284A797983B45B94A298631DF5 /* HDStaticPod.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -884,11 +883,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FDCC50AA4B3B3C9CA771AAFA9374EEBA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -930,8 +928,8 @@
 		329F4B987193F77A3ED5671D6FCD8318 /* Build configuration list for PBXNativeTarget "HDStaticPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				014614008A3CEE953CF65919A1A0B1C5 /* Debug */,
-				EC9CA8EF947C33E4BAB0CCC5DB9F2255 /* Release */,
+				EEE85B0187FA95CF822931C3EED9A8FF /* Debug */,
+				5A04C6E6C0C60CEF69DFD4B7A2E0B8FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDStaticPod'
-  s.version          = '0.1.2'
+  s.version          = '0.1.10'
   s.summary          = 'A short description of HDStaticPod.'
 
 # This description is used to generate tags and improve search results.
@@ -29,10 +29,20 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'HDStaticPod/Classes/**/*'
+#  s.source_files = 'HDStaticPod/Classes/**/*'
+
+  s.source_files = 'HDStaticPod/Classes/**/*.{h,m,swift}'
+#  s.public_header_files="HDStaticPod/Classes/**/*.h"
 
   s.static_framework = true
+
+  s.pod_target_xcconfig = {
+    'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
+    "OTHER_SWIFT_FLAGS" => "$(inherited) -no-verify-emitted-module-interface",
+    'DEFINES_MODULE' => 'YES'
+  }
 
   # s.resource_bundles = {
   #   'HDStaticPod' => ['HDStaticPod/Assets/*.png']

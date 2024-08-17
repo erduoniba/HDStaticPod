@@ -13,6 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)staticOCLog;
 
++ (void)staticOCTest;
+
++ (void)staticSwiftLog;
+
 @end
 
 NS_ASSUME_NONNULL_END

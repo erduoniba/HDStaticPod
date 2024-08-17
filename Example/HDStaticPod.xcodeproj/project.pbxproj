@@ -14,6 +14,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		ADCE44062C703FF700012C3A /* HDOCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE44052C703FF700012C3A /* HDOCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1B9E2FDD082BD59339D6C219 /* Pods-HDStaticPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDStaticPod_Example.release.xcconfig"; path = "Target Support Files/Pods-HDStaticPod_Example/Pods-HDStaticPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1CB8E63FFD4F9523EE0B11A6 /* Pods-HDStaticPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDStaticPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-HDStaticPod_Tests/Pods-HDStaticPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		20E5C0DDA1872E4D6717D507 /* HDStaticPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HDStaticPod.podspec; path = ../HDStaticPod.podspec; sourceTree = "<group>"; };
+		20E5C0DDA1872E4D6717D507 /* HDStaticPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HDStaticPod.podspec; path = ../HDStaticPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FC81BA0E24E66D878332693 /* Pods-HDStaticPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDStaticPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HDStaticPod_Tests/Pods-HDStaticPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HDStaticPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDStaticPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +42,9 @@
 		607FACE51AFB9204008FA782 /* HDStaticPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDStaticPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		791A9A594768FD734051F6A9 /* Pods-HDStaticPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDStaticPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-HDStaticPod_Example/Pods-HDStaticPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADCE44032C703FF700012C3A /* HDStaticPod_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HDStaticPod_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADCE44042C703FF700012C3A /* HDOCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDOCTest.h; sourceTree = "<group>"; };
+		ADCE44052C703FF700012C3A /* HDOCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDOCTest.m; sourceTree = "<group>"; };
 		CEF79CA60768F568EE38B96C /* Pods_HDStaticPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDStaticPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E5E143D87C47D878CE1307 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DCDF5AA3754EE3357C6F67C1 /* Pods_HDStaticPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDStaticPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				ADCE44042C703FF700012C3A /* HDOCTest.h */,
+				ADCE44052C703FF700012C3A /* HDOCTest.m */,
+				ADCE44032C703FF700012C3A /* HDStaticPod_Example-Bridging-Header.h */,
 			);
 			name = "Example for HDStaticPod";
 			path = HDStaticPod;
@@ -210,7 +217,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = TKRM4J3XJV;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1540;
 						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -333,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				ADCE44062C703FF700012C3A /* HDOCTest.m in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +486,7 @@
 			baseConfigurationReference = 791A9A594768FD734051F6A9 /* Pods-HDStaticPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TKRM4J3XJV;
@@ -489,6 +498,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JingxiDev_18;
+				SWIFT_OBJC_BRIDGING_HEADER = "HDStaticPod/HDStaticPod_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};
@@ -499,6 +510,7 @@
 			baseConfigurationReference = 1B9E2FDD082BD59339D6C219 /* Pods-HDStaticPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TKRM4J3XJV;
@@ -510,6 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JingxiDev_18;
+				SWIFT_OBJC_BRIDGING_HEADER = "HDStaticPod/HDStaticPod_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};

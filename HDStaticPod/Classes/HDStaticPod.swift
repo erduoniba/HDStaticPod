@@ -7,8 +7,8 @@
 
 import Foundation
 
-public struct HDStaticPod {
-    public static func staticLog() {
+@objc public class HDStaticPod: NSObject {
+    @objc public static func staticLog() {
         print("This is static lib")
     }
 }
